@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "dependencies": {
+    "grafanaDependency": ">=8.5.0",
+    "plugins": []
+  },
+  "id": "volkovlabs-echarts-panel",
+  "info": {
+    "author": {
+      "name": "Volkov Labs",
+      "url": "https://volkovlabs.io"
+    },
+    "description": "Apache ECharts panel",
+    "keywords": ["echarts"],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/VolkovLabs/volkovlabs-echarts-panel"
+      },
+      {
+        "name": "YouTube Playlist",
+        "url": "https://youtube.com/playlist?list=PLPow72ygztmQHGWFqksEf3LebUfhqBfFu"
+      },
+      {
+        "name": "Website",
+        "url": "https://volkovlabs.io"
+      }
+    ],
+    "logos": {
+      "large": "img/logo.svg",
+      "small": "img/logo.svg"
+    },
+    "screenshots": [
+      {
+        "name": "Dashboard",
+        "path": "img/dashboard.png"
+      },
+      {
+        "name": "Panel",
+        "path": "img/panel.png"
+      },
+      {
+        "name": "3D GL",
+        "path": "img/3d.png"
+      },
+      {
+        "name": "Baidu Maps",
+        "path": "img/baidu.png"
+      }
+    ],
+    "updated": "%TODAY%",
+    "version": "%VERSION%"
+  },
+  "name": "Apache ECharts",
+  "type": "panel"
+}
