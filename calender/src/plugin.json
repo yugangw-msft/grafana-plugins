@@ -1,0 +1,44 @@
+{
+  "$schema": "https://github.com/grafana/grafana/raw/main/docs/sources/developers/plugins/plugin.schema.json",
+  "dependencies": {
+    "grafanaDependency": ">=8.5.0",
+    "plugins": []
+  },
+  "id": "marcusolsson-calendar-panel",
+  "info": {
+    "author": {
+      "name": "Volkov Labs",
+      "url": "https://volkovlabs.io"
+    },
+    "description": "Display events and set time range",
+    "keywords": ["panel", "calendar"],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/VolkovLabs/volkovlabs-calendar-panel"
+      },
+      {
+        "name": "YouTube Playlist",
+        "url": "https://www.youtube.com/playlist?list=PLPow72ygztmSBVo4p4V5RsCb0z_Rjqisp"
+      },
+      {
+        "name": "Website",
+        "url": "https://volkovlabs.io"
+      }
+    ],
+    "logos": {
+      "large": "img/logo.svg",
+      "small": "img/logo.svg"
+    },
+    "screenshots": [
+      {
+        "name": "Panel",
+        "path": "img/screenshot.png"
+      }
+    ],
+    "updated": "%TODAY%",
+    "version": "%VERSION%"
+  },
+  "name": "Calendar",
+  "type": "panel"
+}
